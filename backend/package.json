@@ -1,0 +1,23 @@
+{
+  "name": "wall-sniper-live-backend",
+  "version": "1.0.0",
+  "description": "Signal-only market microstructure intelligence backend for NIFTY/BANKNIFTY/SENSEX, live tick-by-tick via Dhan. No auto order placement.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.2",
+    "web-push": "^3.6.7"
+  }
+}
